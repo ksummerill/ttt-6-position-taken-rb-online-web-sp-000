@@ -3,10 +3,16 @@
 def position_taken?(array, index)
   if array[index] == " " || "" || nil
     return false
-  else array[index] == ("X") || ("O")
+  else array[index] == "X" || "O"
     return true
   end
 end
+
+
+
+
+
+
 
 # def position_taken?(array, index)
 #   if array[index] == "X" || "O"
